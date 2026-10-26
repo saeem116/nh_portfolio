@@ -1,6 +1,7 @@
 "use client";
 
 import { personal, footerSocials } from "../content";
+import { INSTAGRAM_URL } from "../lib/site";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -26,17 +27,22 @@ export function Footer() {
           data-reveal-delay="160ms"
           className="flex items-center gap-6"
         >
-          {footerSocials.map((s) => (
-            <a
-              key={s.label}
-              href={s.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs text-muted hover:text-terracotta transition-colors"
-            >
-              {s.label}
-            </a>
-          ))}
+          <a
+            href={INSTAGRAM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-muted hover:text-terracotta transition-colors"
+          >
+            Instagram
+          </a>
+          <a
+            href={footerSocials.find((s) => s.label === "Vimeo")?.href ?? "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-muted hover:text-terracotta transition-colors"
+          >
+            Vimeo
+          </a>
         </div>
       </div>
     </footer>

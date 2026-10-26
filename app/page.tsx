@@ -10,6 +10,7 @@ import { Footer } from "../src/components/Footer";
 export default function Home() {
   return (
     <main>
+      <h1 className="sr-only">NH Pavel - Video Editor Portfolio</h1>
       <Header />
       <Hero />
       <SelectedProjects />

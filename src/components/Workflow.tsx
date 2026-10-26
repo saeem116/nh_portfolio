@@ -42,7 +42,7 @@ export function Workflow() {
             </p>
           </div>
 
-          {/* Column C: Design & development principles */}
+          {/* Column C: Editing principles */}
           <div>
             <p
               data-reveal

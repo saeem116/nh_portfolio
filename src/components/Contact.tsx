@@ -1,6 +1,8 @@
 "use client";
 
 import { contact } from "../content";
+import { INSTAGRAM_URL } from "../lib/site";
+import { QRCodeSVG } from "qrcode.react";
 
 export function Contact() {
   return (
@@ -30,7 +32,7 @@ export function Contact() {
               data-reveal-delay="240ms"
               className="mt-6 text-muted max-w-md leading-relaxed"
             >
-              Have a project in mind? Let's build something that makes an impact.
+              Have a video project in mind? Let's cut something that makes an impact.
             </p>
           </div>
 
@@ -41,8 +43,30 @@ export function Contact() {
             className="flex items-start justify-center"
           >
             <div className="text-center">
-              <img src="/qr-placeholder.png" alt="QR code to visit website" className="w-32 h-32 mx-auto mb-3 bg-line" />
-              <p className="text-[11px] tracking-[0.2em] text-muted uppercase">Scan to visit my website</p>
+              <a
+                href={INSTAGRAM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open NH Pavel's Instagram profile"
+                className="focus-ring inline-block"
+                style={{ outline: "none", textDecoration: "none", cursor: "pointer" }}
+              >
+                <QRCodeSVG
+                  value={INSTAGRAM_URL}
+                  size={120}
+                  level="M"
+                  marginSize={4}
+                  bgColor="#F5F0E8"
+                  fgColor="#111111"
+                  className="mx-auto mb-3"
+                  style={{
+                    width: 120,
+                    height: 120,
+                    shapeRendering: "crispEdges",
+                  }}
+                />
+              </a>
+              <p className="text-[11px] tracking-[0.2em] text-muted uppercase">Scan to follow on Instagram</p>
             </div>
           </div>
 

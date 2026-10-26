@@ -29,7 +29,7 @@ export function QuoteSection() {
             data-reveal-delay="160ms"
             className="text-sm text-muted max-w-xs pb-1"
           >
-            Honest feedback from amazing clients I've had the pleasure to work with.
+            Feedback from clients on videos that performed.
           </p>
           <div className="pb-1">
             <a

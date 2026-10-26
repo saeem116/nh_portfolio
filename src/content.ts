@@ -14,11 +14,11 @@
 export const personal = {
   name: "NH Pavel",
   greeting: "HELLO, I'M",
-  role: "WEB DESIGNER & DIGITAL CREATIVE",
-  tagline: "WEB DESIGNER",
+  role: "VIDEO EDITOR & MOTION DESIGNER",
+  tagline: "VIDEO EDITOR",
   // Hero headline parts
   heroHeadline: ["PORTFOLIO"],
-  bio: "I craft clean, modern, and user-focused websites that help brands stand out and connect with the right audience.",
+  bio: "I edit videos that hold attention: sharp cuts, cinematic color, and sound design that makes every story land.",
   location: "Remote Worldwide",
   available: "AVAILABLE WORLDWIDE",
   // Placeholder stats
@@ -33,12 +33,12 @@ export const personal = {
 
 // ---------- Contact ----------
 export const contact = {
-  email: "hello@alexmorgan.design",
-  emailLabel: "hello@alexmorgan.design",
-  website: "www.alexmorgan.design",
-  websiteLabel: "www.alexmorgan.design",
-  instagram: "https://instagram.com/alexmorgan",
-  vimeo: "https://vimeo.com/alexmorgan",
+  email: "hello@nhpavel.com",
+  emailLabel: "hello@nhpavel.com",
+  website: "nh-pavel-portfolio.vercel.app",
+  websiteLabel: "nh-pavel-portfolio.vercel.app",
+  instagram: "https://www.instagram.com/nh_pavel9090/",
+  vimeo: "https://vimeo.com/nhpavel",
   locationLabel: "Remote Worldwide",
   cta: "LET'S CREATE SOMETHING GREAT",
 };
@@ -88,8 +88,8 @@ export const projects: Project[] = [
   },
   {
     number: "02",
-    title: "Avenue & Co.",
-    category: "Luxury Fashion Brand",
+    title: "Avenue Fashion Film",
+    category: "FASHION FILM",
     description:
       "A travel piece shot across three continents, edited to follow the arc of the journey rather than the itinerary.",
     image: "/project-02.png",
@@ -99,8 +99,8 @@ export const projects: Project[] = [
   },
   {
     number: "03",
-    title: "The Journal",
-    category: "Editorial Platform",
+    title: "The Journal Documentary",
+    category: "DOCUMENTARY",
     description:
       "A music video where the cut lives inside the beat — every transition lands on the downbeat.",
     image: "/project-03.png",
@@ -110,8 +110,8 @@ export const projects: Project[] = [
   },
   {
     number: "04",
-    title: "Fuel Performance",
-    category: "Sports Nutrition Brand",
+    title: "Fuel Sports Promo",
+    category: "SPORTS PROMO",
     description:
       "Consistent, punchy YouTube editing that keeps the audience past the three-second mark, every episode.",
     image: "/project-04.png",
@@ -121,8 +121,8 @@ export const projects: Project[] = [
   },
   {
     number: "05",
-    title: "Northwind Studio",
-    category: "Brand Identity Studio",
+    title: "Northwind Brand Film",
+    category: "BRAND FILM",
     description:
       "A complete brand system for a sustainable architecture studio, built on restraint and material honesty.",
     image: "/project-05.png",
@@ -132,8 +132,8 @@ export const projects: Project[] = [
   },
   {
     number: "06",
-    title: "Lumen Health",
-    category: "Healthcare App",
+    title: "Lumen Explainer",
+    category: "EXPLAINER VIDEO",
     description:
       "Mobile app for mental wellness tracking and guided meditation, designed for calm and clarity.",
     image: "/project-06.png",
@@ -143,8 +143,8 @@ export const projects: Project[] = [
   },
   {
     number: "07",
-    title: "Atlas Travel",
-    category: "Travel Platform",
+    title: "Atlas Travel Vlog",
+    category: "TRAVEL FILM",
     description:
       "A booking platform for curated independent hotels, with a focus on discovery and trust.",
     image: "/project-07.png",
@@ -154,8 +154,8 @@ export const projects: Project[] = [
   },
   {
     number: "08",
-    title: "Verde Market",
-    category: "Organic E-Commerce",
+    title: "Verde Music Video",
+    category: "MUSIC VIDEO",
     description:
       "Online marketplace for local organic produce delivery, connecting growers and neighbors.",
     image: "/project-08.png",
@@ -167,44 +167,44 @@ export const projects: Project[] = [
 
 // ---------- Software / tools ----------
 export const software = [
-  "Figma",
-  "Adobe Creative Suite",
-  "Webflow",
-  "VS Code",
-  "WordPress",
+  "Premiere Pro",
+  "After Effects",
+  "DaVinci Resolve",
+  "Photoshop",
+  "Audition",
 ];
 
 // ---------- Skills with progress ----------
 export const skills = [
-  { name: "UI / UX DESIGN", level: 95 },
-  { name: "WEB DEVELOPMENT", level: 90 },
-  { name: "BRANDING", level: 85 },
-  { name: "RESPONSIVE DESIGN", level: 90 },
-  { name: "INTERACTION DESIGN", level: 80 },
-  { name: "CMS (WORDPRESS)", level: 85 },
+  { name: "VIDEO EDITING", level: 95 },
+  { name: "COLOR GRADING", level: 90 },
+  { name: "MOTION GRAPHICS", level: 85 },
+  { name: "SOUND DESIGN", level: 90 },
+  { name: "VFX & COMPOSITING", level: 80 },
+  { name: "STORYTELLING", level: 85 },
 ];
 
 // ---------- Services / Principles ----------
 export const services = [
   {
     number: "01",
-    title: "USER-CENTERED DESIGN",
-    description: "Focus on creating seamless and meaningful user experiences.",
+    title: "STORY FIRST",
+    description: "Every edit starts with the story, the message, and the audience.",
   },
   {
     number: "02",
-    title: "CLEAN & MODERN CODE",
-    description: "High-quality, scalable, and performant development.",
+    title: "RHYTHM & PACING",
+    description: "Cuts, music, and motion timed to keep viewers watching.",
   },
   {
     number: "03",
-    title: "FULLY RESPONSIVE",
-    description: "Websites that look and work perfectly on any device.",
+    title: "EVERY PLATFORM",
+    description: "Formats and exports tuned for YouTube, Reels, TikTok, and the big screen.",
   },
   {
     number: "04",
-    title: "PERFORMANCE DRIVEN",
-    description: "Speed, SEO, and best practices built into every project.",
+    title: "ON-TIME DELIVERY",
+    description: "Clear communication, organized revisions, and fast turnarounds.",
   },
 ];
 
@@ -219,7 +219,7 @@ export type Testimonial = {
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "Alex is an incredible designer. He understood our vision perfectly and delivered a website that exceeded our expectations.",
+      "Pavel is an incredible editor. He understood our vision perfectly and delivered a video that exceeded our expectations.",
     author: "Jessica Lee",
     role: "Founder, Avenue & Co.",
     avatar:
@@ -227,7 +227,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "Professional, creative, and detail-oriented. The whole process was smooth from start to finish.",
+      "Professional, creative, and detail-oriented. Fast turnarounds and the whole process was smooth from start to finish.",
     author: "David Carter",
     role: "CEO, Studio Form",
     avatar:
@@ -235,7 +235,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "Our new website not only looks amazing but also performs exceptionally well. Highly recommended!",
+      "Our new campaign video looks amazing and performs exceptionally well. Highly recommended!",
     author: "James Wilson",
     role: "Marketing Director, Fuel Performance",
     avatar:
@@ -245,7 +245,7 @@ export const testimonials: Testimonial[] = [
 
 // ---------- Quote ----------
 export const quote = {
-  text: "I design and build digital experiences that are not only beautiful but also functional, intuitive, and impactful.",
+  text: "I edit stories that are not only beautiful to watch but also paced, emotional, and impossible to scroll past.",
   attribution: personal.name,
 };
 

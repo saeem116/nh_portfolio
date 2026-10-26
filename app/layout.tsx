@@ -58,13 +58,18 @@ const signature = Mrs_Saint_Delafield({
 });
 
 export const metadata: Metadata = {
-  title: "NH Pavel — Web Designer & Digital Creative",
+  title: "NH Pavel | Video Editor & Motion Designer",
   description:
-    "Portfolio of NH Pavel, a web designer and digital creative crafting clean, modern, user-focused websites.",
+    "Portfolio of NH Pavel, a professional video editor specializing in storytelling, color grading, motion graphics, and sound design.",
   openGraph: {
-    title: "NH Pavel — Web Designer",
-    description: "Selected work in design, development, and problem-solving.",
+    title: "NH Pavel — Video Editor",
+    description: "Portfolio of NH Pavel, a professional video editor specializing in storytelling, color grading, motion graphics, and sound design.",
     type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "NH Pavel — Video Editor",
+    description: "Portfolio of NH Pavel, a professional video editor specializing in storytelling, color grading, motion graphics, and sound design.",
   },
 };
 

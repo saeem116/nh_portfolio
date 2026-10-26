@@ -117,7 +117,7 @@ export function Hero() {
             >
               <g transform="translate(103, 324.447674) scale(0.903355, 0.760180)">
                 <text
-                  x="0"
+                  x="-20"
                   y="0"
                   fontFamily='"League Gothic", sans-serif'
                   fontWeight="400"
@@ -272,9 +272,11 @@ export function Hero() {
                 left: 54,
                 top: 40,
                 width: 12,
+                height: 365,
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
+                justifyContent: "space-between",
                 "--d": "900ms",
                 opacity: 0,
               }}
@@ -288,7 +290,7 @@ export function Hero() {
                   transform: "rotate(180deg)",
                 }}
               >
-                UI / UX DESIGN
+                VIDEO EDITING
               </div>
               <div style={rule(40, 22)} />
               <div
@@ -299,7 +301,7 @@ export function Hero() {
                   transform: "rotate(180deg)",
                 }}
               >
-                WEB DEVELOPMENT
+                COLOR GRADING
               </div>
             </div>
 
@@ -312,17 +314,19 @@ export function Hero() {
                 left: 1116,
                 top: 415,
                 width: 12,
+                height: 325,
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
+                justifyContent: "space-between",
                 "--d": "1000ms",
                 opacity: 0,
               }}
             >
-              <div style={{ ...labelText, height: 75 }}>BRANDING</div>
+              <div style={{ ...labelText, height: 75 }}>SOUND DESIGN</div>
               <div style={rule(47, 25)} />
-              <div style={{ ...labelText, marginTop: 23, height: 155 }}>
-                DIGITAL EXPERIENCES
+              <div style={{ ...labelText, marginTop: -12, height: 128 }}>
+                MOTION GRAPHICS
               </div>
             </div>
 
@@ -411,8 +415,8 @@ export function Hero() {
                   opacity: 0,
                 }}
               >
-                I craft clean, modern, and user-focused websites that help
-                brands stand out and connect with the right audience.
+                I edit videos that hold attention: sharp cuts, cinematic color,
+                and sound design that makes every story land.
               </p>
               {/* Signature — Mrs Saint Delafield applied directly */}
               <p

@@ -125,7 +125,7 @@ export function SelectedProjects() {
             data-reveal-delay="160ms"
             className="text-sm text-muted max-w-xs pb-1"
           >
-            A curated selection of recent work showcasing design, development, and problem-solving.
+            A curated selection of recent edits showcasing storytelling, pacing, color, and sound.
           </p>
 
           {/* Right: VIEW ALL / SHOW LESS toggle */}

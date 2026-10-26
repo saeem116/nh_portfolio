@@ -17,9 +17,9 @@ export function About() {
               ABOUT
             </p>
             <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-ink leading-[0.95]">
-              CRAFTING DIGITAL
+              CUTTING STORIES
               <br />
-              <span className="text-terracotta">EXPERIENCES</span>
+              <span className="text-terracotta">THAT CONNECT</span>
             </h2>
             <p
               data-reveal
@@ -27,8 +27,7 @@ export function About() {
               className="mt-6 max-w-lg leading-relaxed"
               style={{ color: "#444444" }}
             >
-              {personal.bio} Every decision — from the type to the transition —
-              is considered, and every detail earns its place.
+              {personal.bio} Every cut, color choice, and sound cue is intentional, and every frame earns its place.
             </p>
           </div>
 
