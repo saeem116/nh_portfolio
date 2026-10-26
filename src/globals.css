@@ -1,0 +1,334 @@
+@import 'tailwindcss';
+
+/* ---------- Tailwind v4 theme configuration ---------- */
+@theme {
+  /* Warm ivory editorial palette (target reference) */
+  --color-ink: #111111;
+  --color-ink-soft: #2a2826;
+  --color-panel: #F2EDE4;
+  --color-line: #CDC5B8;
+  --color-line-soft: #D9D1C4;
+  --color-terracotta: #C4694B;
+  --color-terracotta-soft: #C98A74;
+  --color-terracotta-glow: rgba(196, 105, 75, 0.16);
+  --color-text: #111111;
+  --color-text-soft: #4a4540;
+  --color-muted: #333333;
+  --color-muted-soft: #8a8177;
+  --color-warm-ivory: #F5F0E8;
+
+  --font-display: var(--font-league-gothic), "Anton", "Inter", system-ui, sans-serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-serif: var(--font-playfair), "Georgia", serif;
+  --font-bodoni: "Bodoni Moda", "Playfair Display", serif;
+  --font-script: var(--font-dancing), "Playfair Display", cursive;
+}
+
+/* ---------- Theme tokens (backwards compat) ---------- */
+:root {
+  --bg: #F5F0E8;
+  --bg-soft: #F2EDE4;
+  --panel: #F2EDE4;
+  --line: #CDC5B8;
+  --line-soft: #D9D1C4;
+  --terracotta: #C4694B;
+  --terracotta-soft: #C98A74;
+  --terracotta-glow: rgba(196, 105, 75, 0.16);
+  --text: #111111;
+  --text-soft: #4a4540;
+  --muted: #333333;
+  --muted-soft: #8a8177;
+}
+
+/* ---------- Base ---------- */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+}
+
+/* ---------- Site container ---------- */
+.site-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* ---------- Section rules ---------- */
+.section {
+  padding: 80px 0;
+}
+.section-first {
+  padding-top: 0;
+}
+.section-noborder {
+  border-bottom: 0;
+}
+
+/* ---------- About section tags (cream theme) ---------- */
+.about-tag {
+  background: rgba(17, 17, 17, 0.03);
+  border: 1px solid #D0C9BC;
+  color: #333333;
+  transition: border 200ms ease, color 200ms ease;
+}
+.about-tag:hover {
+  border-color: #C9755A;
+  color: #C9755A;
+}
+
+/* ---------- Selection ---------- */
+::selection {
+  background: var(--terracotta);
+  color: #fff;
+}
+
+/* ---------- Thin editorial rules ---------- */
+.rule {
+  height: 1px;
+  background: var(--line);
+  width: 100%;
+}
+.rule-thin {
+  height: 1px;
+  background: var(--line-soft);
+  width: 100%;
+}
+
+/* ---------- Terracotta accent line ---------- */
+.accent-line {
+  width: 48px;
+  height: 2px;
+  background: var(--terracotta);
+  display: block;
+}
+
+/* ---------- Responsive hero ---------- */
+@media (max-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-portrait {
+    max-width: 70vw;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-container {
+    padding: 0 20px;
+  }
+  .section {
+    padding: 64px 0;
+  }
+  .hero-rotate {
+    display: none;
+  }
+  .hero-portrait {
+    max-width: 60vw;
+  }
+  .hero-circle {
+    width: 280px !important;
+    height: 280px !important;
+  }
+  .hero-badge {
+    display: none;
+  }
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  [data-anim] {
+    animation: none !important;
+    opacity: 1 !important;
+    translate: none !important;
+    scale: none !important;
+    clip-path: none !important;
+  }
+  .reveal-hidden,
+  .reveal-hidden-fade {
+    opacity: 1 !important;
+    translate: none !important;
+  }
+}
+
+/* ---------- Custom scrollbar ---------- */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--terracotta);
+}
+
+/* ---------- Modal backdrop ---------- */
+.modal-backdrop {
+  background: rgba(4, 4, 4, 0.85);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* ---------- Image fit ---------- */
+.img-cover {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* ---------- Utility: focus ring ---------- */
+.focus-ring:focus-visible {
+  outline: 2px solid var(--terracotta);
+  outline-offset: 2px;
+}
+
+/* ---------- Circular text path utilities ---------- */
+.circular-text {
+  font-family: var(--font-sans);
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+/* ---------- Page-load animation tokens ---------- */
+:root {
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --reveal-distance: 28px;
+  --reveal-duration: 800ms;
+}
+
+/* ---------- Page-load animation keyframes ---------- */
+@keyframes reveal-up {
+  from { opacity: 0; translate: 0 var(--reveal-distance); }
+  to   { opacity: 1; translate: 0 0; }
+}
+@keyframes reveal-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes reveal-down {
+  from { opacity: 0; translate: 0 -16px; }
+  to   { opacity: 1; translate: 0 0; }
+}
+@keyframes reveal-left {
+  from { opacity: 0; translate: -20px 0; }
+  to   { opacity: 1; translate: 0 0; }
+}
+@keyframes reveal-right {
+  from { opacity: 0; translate: 20px 0; }
+  to   { opacity: 1; translate: 0 0; }
+}
+@keyframes reveal-mask {
+  from { opacity: 0; clip-path: inset(100% 0 0 0); }
+  to   { opacity: 1; clip-path: inset(0 0 0 0); }
+}
+@keyframes reveal-pop {
+  from { opacity: 0; scale: 0.6; }
+  to   { opacity: 1; scale: 1; }
+}
+@keyframes reveal-line {
+  from { opacity: 0; clip-path: inset(0 100% 0 0); }
+  to   { opacity: 1; clip-path: inset(0 0 0 0); }
+}
+
+/* ---------- Page-load animation utility (hero only) ---------- */
+/* Scoped to data-group="load" so scroll elements are NOT hidden by default. */
+[data-group="load"][data-anim] {
+  animation-fill-mode: both;
+  animation-timing-function: var(--ease-out);
+  animation-duration: var(--reveal-duration);
+  animation-delay: var(--d, 0ms);
+  animation-play-state: paused;
+}
+[data-group="load"][data-anim="up"]    { animation-name: reveal-up; }
+[data-group="load"][data-anim="fade"]  { animation-name: reveal-fade; }
+[data-group="load"][data-anim="down"]  { animation-name: reveal-down; }
+[data-group="load"][data-anim="left"]  { animation-name: reveal-left; }
+[data-group="load"][data-anim="right"] { animation-name: reveal-right; }
+[data-group="load"][data-anim="mask"]  { animation-name: reveal-mask; }
+[data-group="load"][data-anim="pop"]   { animation-name: reveal-pop; }
+[data-group="load"][data-anim="line"]  { animation-name: reveal-line; }
+
+/* ---------- Page reveal trigger ---------- */
+html[data-revealed="true"] [data-group="load"] {
+  animation-play-state: running;
+}
+
+/* ---------- Scroll reveal (new safe system) ---------- */
+/* Nothing is hidden by CSS by default. JS only hides elements that
+   are below the viewport at mount time. If JS fails, content stays visible. */
+.reveal-hidden {
+  opacity: 0;
+  translate: 0 28px;
+}
+.reveal-hidden-fade {
+  opacity: 0;
+}
+.reveal-in {
+  animation: reveal-up 800ms var(--ease-out) both;
+  animation-delay: var(--d, 0ms);
+}
+.reveal-in-fade {
+  animation: reveal-fade 800ms var(--ease-out) both;
+  animation-delay: var(--d, 0ms);
+}
+
+/* ---------- Hero specific ---------- */
+.hero-portrait-wrapper {
+  position: relative;
+}
+
+/* ---------- Progress bar ---------- */
+.skill-bar-track {
+  height: 2px;
+  background: var(--line-soft);
+  border-radius: 0;
+  overflow: visible;
+}
+.skill-bar-fill {
+  height: 100%;
+  background: var(--terracotta);
+  border-radius: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 1.2s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.skill-bar-fill.animate {
+  transform: scaleX(var(--progress, 0));
+}
+
+/* ---------- Project card play icon ---------- */
+.play-icon-overlay {
+  opacity: 0.9;
+  transform: scale(0.9);
+  transition: opacity 250ms ease, transform 250ms ease;
+}
+button.group:hover .play-icon-overlay,
+button.group:focus-visible .play-icon-overlay {
+  opacity: 1;
+  transform: scale(1.08);
+}

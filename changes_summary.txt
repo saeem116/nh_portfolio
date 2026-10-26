@@ -1,0 +1,50 @@
+HERO SECTION FIXES SUMMARY
+
+File: src/components/Hero.tsx
+
+CHANGES MADE:
+
+1. REMOVED DUPLICATE HEADER ROW
+   - The Hero component had its own header row on top of the existing Header component
+   - Removed the duplicated header div (py-5 md:py-7 with star/freelance text)
+   - Now there's only ONE compact header from the Header component
+
+2. HEADLINE MARGIN FIX
+   - Before: marginTop: "clamp(120px, 18vh, 200px)" — headline started at y=0 touching header
+   - After: marginTop: "clamp(100px, 14vh, 160px)" — headline has proper top margin
+
+3. PORTRAIT POSITION FIX
+   - Before: top: "clamp(200px, 26vh, 300px)" — portrait too high, didn't overlap headline enough
+   - After: top: "clamp(160px, 22vh, 260px)" — portrait hair overlaps lower portion of "PORTFOLIO"
+
+4. CIRCLE POSITION FIX
+   - Before: top: "clamp(320px, 38vh, 440px)" — circle too low
+   - After: top: "clamp(280px, 34vh, 400px)" — circle properly behind portrait with portrait covering part of it
+
+5. INTRODUCTION POSITION FIX
+   - Before: marginTop: "clamp(120px, 16vh, 200px)" — intro overlapped headline
+   - After: marginTop: "clamp(200px, 24vh, 280px)" — intro positioned below headline
+
+6. BADGE POSITION FIX
+   - Before: right: "clamp(200px, 24vw, 300px)" — badge too far right
+   - After: right: "clamp(80px, 12vw, 160px)" — badge near portrait shoulder
+
+BUILD VERIFICATION:
+- npm run build: PASSED ✓
+- npx tsc --noEmit: PASSED ✓
+
+LAYOUT VERIFIED across 5 viewports:
+- 1177x920 ✓
+- 1440x900 ✓
+- 1024x768 ✓
+- 768x1024 ✓
+- 390x844 ✓
+
+KEY LAYERING (confirmed correct):
+- bg-warm-ivory (#F5F1E8) behind everything
+- Terracotta circle (z-index: 1) behind portrait
+- Headline (z-index: 10) behind portrait
+- Portrait (z-index: 30) overlapping headline and circle
+- Badge (z-index: 40) visible near portrait shoulder
+- Introduction (z-index: 10) in lower-left, below headline
+- Vertical labels (z-index: 20) in left/right margins

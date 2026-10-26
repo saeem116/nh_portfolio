@@ -1,0 +1,22 @@
+/* Custom font declarations for the portfolio.
+ *
+ * All four faces are loaded via next/font/google in app/layout.tsx, which
+ * self-hosts them and removes external network requests. This file only
+ * declares the CSS custom properties that map the Tailwind font families
+ * to the self-hosted faces.
+ *
+ * Display:  "Anton" — ultra-bold condensed grotesque for the enormous hero
+ *           headlines. This is the single most distinctive face on the page.
+ * Sans:    "Inter" — clean geometric sans for UI, navigation, body, buttons.
+ * Serif:   "Playfair Display" — elegant serif for the personal quote panel.
+ * Script:  "Dancing Script" — used sparingly for the "Hello, I'm" greeting.
+ */
+
+:root {
+  --font-display: var(--font-league-gothic), "Anton", "Inter", system-ui, sans-serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-serif: var(--font-playfair), "Georgia", serif;
+  --font-bodoni: "Bodoni Moda", "Playfair Display", serif;
+  --font-script: var(--font-dancing), "Playfair Display", cursive;
+  /* --font-signature is defined by next/font/google in app/layout.tsx */
+}
