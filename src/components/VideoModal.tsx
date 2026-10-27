@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { Project } from "../content";
+import { GlowLayer } from "./GlowLayer";
 
 type VideoModalProps = {
   projects: Project[];
@@ -197,6 +198,15 @@ export function VideoModal({ projects, activeIndex, onClose, onNavigate }: Video
           justifyContent: "center",
         }}
       >
+        {/* Glow layer — behind dialog, inside the overlay, z-index 0 */}
+        {visible && (
+          <GlowLayer
+            project={project}
+            visible={visible}
+            reducedMotion={reducedMotion}
+          />
+        )}
+
         {/* Dialog */}
         <div
           role="dialog"

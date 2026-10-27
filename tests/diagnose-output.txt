@@ -1,15 +1,17 @@
 
+=== H1 id="" class="sr-only" height=1 data-anim=0 data-inview=0
+
 === HEADER id="" class="relative z-30" height=16 data-anim=3 data-inview=0
   SPAN "*" opacity=1 vis=visible color=rgb(196, 105, 75) translate=none clipPath=none anim=none playState=running
-  SPAN "WEB DESIGNER" opacity=1 vis=visible color=rgb(51, 51, 51) translate=0px clipPath=none anim=reveal-up playState=running
+  SPAN "VIDEO EDITOR" opacity=1 vis=visible color=rgb(51, 51, 51) translate=0px clipPath=none anim=reveal-up playState=running
   SPAN "Available for Freelance" opacity=1 vis=visible color=rgb(51, 51, 51) translate=none clipPath=none anim=reveal-fade playState=running
 
 === SECTION id="" class="" height=254 data-anim=13 data-inview=0
   P "HELLO, I'M" opacity=1 vis=visible color=rgb(17, 17, 17) translate=0px clipPath=none anim=reveal-up playState=running
   P "NH" opacity=1 vis=visible color=rgb(17, 17, 17) translate=0px clipPath=none anim=reveal-up playState=running
   P "Pavel" opacity=1 vis=visible color=rgb(17, 17, 17) translate=0px clipPath=none anim=reveal-up playState=running
-  P "WEB DESIGNER & DIGITAL CREATIV" opacity=1 vis=visible color=rgb(196, 105, 75) translate=0px clipPath=none anim=reveal-up playState=running
-  P "I craft clean, modern, and use" opacity=1 vis=visible color=rgb(34, 34, 34) translate=0px clipPath=none anim=reveal-up playState=running
+  P "VIDEO EDITOR & MOTION DESIGNER" opacity=1 vis=visible color=rgb(196, 105, 75) translate=0px clipPath=none anim=reveal-up playState=running
+  P "I edit videos that hold attent" opacity=1 vis=visible color=rgb(34, 34, 34) translate=0px clipPath=none anim=reveal-up playState=running
 
 === SECTION id="work" class="section border-b border-line bg-warm-ivory" height=1880 data-anim=0 data-inview=0
   P "SELECTED" opacity=1 vis=visible color=rgb(196, 105, 75) translate=none clipPath=none anim=none playState=running
@@ -18,33 +20,33 @@
   SPAN "VIEW ALL PROJECTS" opacity=1 vis=visible color=rgb(51, 51, 51) translate=none clipPath=none anim=none playState=running
   SPAN "01" opacity=1 vis=visible color=rgb(196, 105, 75) translate=none clipPath=none anim=none playState=running
 
-=== SECTION id="about" class="section border-t border-line" height=838 data-anim=0 data-inview=0
+=== SECTION id="about" class="section border-t border-line" height=812 data-anim=0 data-inview=0
   P "ABOUT" opacity=1 vis=visible color=rgb(196, 105, 75) translate=none clipPath=none anim=none playState=running
-  H2 "CRAFTING DIGITALEXPERIENCES" opacity=1 vis=visible color=rgb(17, 17, 17) translate=none clipPath=none anim=none playState=running
-  SPAN "EXPERIENCES" opacity=1 vis=visible color=rgb(196, 105, 75) translate=none clipPath=none anim=none playState=running
-  P "I craft clean, modern, and use" opacity=1 vis=visible color=rgb(68, 68, 68) translate=none clipPath=none anim=none playState=running
+  H2 "CUTTING STORIESTHAT CONNECT" opacity=1 vis=visible color=rgb(17, 17, 17) translate=none clipPath=none anim=none playState=running
+  SPAN "THAT CONNECT" opacity=1 vis=visible color=rgb(196, 105, 75) translate=none clipPath=none anim=none playState=running
+  P "I edit videos that hold attent" opacity=1 vis=visible color=rgb(68, 68, 68) translate=none clipPath=none anim=none playState=running
   P "CAPABILITIES" opacity=1 vis=visible color=rgb(51, 51, 51) translate=none clipPath=none anim=none playState=running
 
-=== SECTION id="skills" class="section border-t border-line bg-warm-ivory" height=1164 data-anim=0 data-inview=0
+=== SECTION id="skills" class="section border-t border-line bg-warm-ivory" height=1203 data-anim=0 data-inview=0
   H3 "SKILLS &EXPERTISE" opacity=1 vis=visible color=rgb(17, 17, 17) translate=none clipPath=none anim=none playState=running
   SPAN "EXPERTISE" opacity=1 vis=visible color=rgb(196, 105, 75) translate=none clipPath=none anim=none playState=running
-  SPAN "UI / UX DESIGN" opacity=1 vis=visible color=rgb(51, 51, 51) translate=none clipPath=none anim=none playState=running
+  SPAN "VIDEO EDITING" opacity=1 vis=visible color=rgb(51, 51, 51) translate=none clipPath=none anim=none playState=running
   SPAN "95%" opacity=1 vis=visible color=rgb(138, 129, 119) translate=none clipPath=none anim=none playState=running
-  SPAN "WEB DEVELOPMENT" opacity=1 vis=visible color=rgb(51, 51, 51) translate=none clipPath=none anim=none playState=running
+  SPAN "COLOR GRADING" opacity=1 vis=visible color=rgb(51, 51, 51) translate=none clipPath=none anim=none playState=running
 
 === SECTION id="reviews" class="section border-t border-line bg-warm-ivory" height=1100 data-anim=0 data-inview=0
   P "WHAT CLIENTS" opacity=1 vis=visible color=rgb(196, 105, 75) translate=none clipPath=none anim=none playState=running
   H2 "SAY" opacity=1 vis=visible color=rgb(17, 17, 17) translate=none clipPath=none anim=none playState=running
   SPAN "SAY" opacity=1 vis=visible color=rgb(196, 105, 75) translate=none clipPath=none anim=none playState=running
-  P "Honest feedback from amazing c" opacity=1 vis=visible color=rgb(51, 51, 51) translate=none clipPath=none anim=none playState=running
+  P "Feedback from clients on video" opacity=1 vis=visible color=rgb(51, 51, 51) translate=none clipPath=none anim=none playState=running
   A "MORE REVIEWS" opacity=1 vis=visible color=rgb(51, 51, 51) translate=none clipPath=none anim=none playState=running
 
-=== SECTION id="contact" class="section border-t border-line bg-warm-ivory" height=728 data-anim=0 data-inview=0
+=== SECTION id="contact" class="section border-t border-line bg-warm-ivory" height=726 data-anim=0 data-inview=0
   P "LET'S CREATE" opacity=1 vis=visible color=rgb(196, 105, 75) translate=none clipPath=none anim=none playState=running
   H2 "LET'S CREATESOMETHING GREAT" opacity=1 vis=visible color=rgb(17, 17, 17) translate=none clipPath=none anim=none playState=running
   SPAN "SOMETHING GREAT" opacity=1 vis=visible color=rgb(196, 105, 75) translate=none clipPath=none anim=none playState=running
-  P "Have a project in mind? Let's " opacity=1 vis=visible color=rgb(51, 51, 51) translate=none clipPath=none anim=none playState=running
-  P "Scan to visit my website" opacity=1 vis=visible color=rgb(51, 51, 51) translate=none clipPath=none anim=none playState=running
+  P "Have a video project in mind? " opacity=1 vis=visible color=rgb(51, 51, 51) translate=none clipPath=none anim=none playState=running
+  A "" opacity=1 vis=visible color=rgb(17, 17, 17) translate=none clipPath=none anim=none playState=running
 
 === FOOTER id="" class="border-t border-line bg-warm-ivory" height=93 data-anim=0 data-inview=0
   P "NH Pavel" opacity=1 vis=visible color=rgb(17, 17, 17) translate=none clipPath=none anim=none playState=running
@@ -54,7 +56,7 @@
 
 === ABOUT HEADING ===
 {
-  "text": "CRAFTING DIGITALEXPERIENCES",
+  "text": "CUTTING STORIESTHAT CONNECT",
   "color": "rgb(17, 17, 17)",
   "classList": "font-display text-4xl md:text-6xl lg:text-7xl text-ink leading-[0.95]",
   "cssText": null,
