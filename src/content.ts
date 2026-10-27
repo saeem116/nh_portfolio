@@ -33,8 +33,8 @@ export const personal = {
 
 // ---------- Contact ----------
 export const contact = {
-  email: "hello@nhpavel.com",
-  emailLabel: "hello@nhpavel.com",
+  email: "nhpavel990@gmail.com",
+  emailLabel: "nhpavel990@gmail.com",
   website: "nh-pavel-portfolio.vercel.app",
   websiteLabel: "nh-pavel-portfolio.vercel.app",
   instagram: "https://www.instagram.com/nh_pavel9090/",
