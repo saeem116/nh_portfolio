@@ -180,12 +180,17 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ScrollR
 ;
 ;
 const metadata = {
-    title: "NH Pavel — Web Designer & Digital Creative",
-    description: "Portfolio of NH Pavel, a web designer and digital creative crafting clean, modern, user-focused websites.",
+    title: "NH Pavel | Video Editor & Motion Designer",
+    description: "Portfolio of NH Pavel, a professional video editor specializing in storytelling, color grading, motion graphics, and sound design.",
     openGraph: {
-        title: "NH Pavel — Web Designer",
-        description: "Selected work in design, development, and problem-solving.",
+        title: "NH Pavel — Video Editor",
+        description: "Portfolio of NH Pavel, a professional video editor specializing in storytelling, color grading, motion graphics, and sound design.",
         type: "website"
+    },
+    twitter: {
+        card: "summary",
+        title: "NH Pavel — Video Editor",
+        description: "Portfolio of NH Pavel, a professional video editor specializing in storytelling, color grading, motion graphics, and sound design."
     }
 };
 function RootLayout({ children }) {
@@ -199,17 +204,17 @@ function RootLayout({ children }) {
                         children: `[data-anim]{animation:none!important;opacity:1!important;translate:none!important;clip-path:none!important;scale:none!important}.reveal-hidden,.reveal-hidden-fade{opacity:1!important;translate:none!important}[data-reveal]{opacity:1!important;translate:none!important;animation:none!important}`
                     }, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 83,
+                        lineNumber: 88,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 82,
+                    lineNumber: 87,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 81,
+                lineNumber: 86,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
@@ -218,24 +223,24 @@ function RootLayout({ children }) {
                     children,
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PageReveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PageReveal"], {}, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 88,
+                        lineNumber: 93,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ScrollReveal$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ScrollReveal"], {}, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 89,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 86,
+                lineNumber: 91,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 77,
+        lineNumber: 82,
         columnNumber: 5
     }, this);
 }

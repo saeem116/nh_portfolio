@@ -23,206 +23,208 @@ Received string:    "rgba(0, 0, 0, 0)"
 ```yaml
 - generic [active] [ref=e1]:
   - main [ref=e2]:
-    - generic [ref=e4]:
-      - generic [ref=e5]:
-        - generic [ref=e6]: "*"
-        - generic [ref=e7]: WEB DESIGNER
-      - generic [ref=e8]: Available for Freelance
-    - generic [ref=e15]:
-      - img [ref=e17]:
-        - generic [ref=e18]: PORTFOLIO
-      - img "Portrait of NH Pavel" [ref=e22]
-      - img [ref=e24]:
-        - generic [ref=e26]: • AVAILABLE WORLDWIDE • AVAILABLE WORLDWIDE • AVAILABLE WORLDWIDE •
-        - generic [ref=e27]: OPEN
-        - generic [ref=e28]: FOR NEW
-        - generic [ref=e29]: PROJECTS
-      - generic [ref=e30]:
-        - generic [ref=e32]: UI / UX DESIGN
-        - generic [ref=e34]: WEB DEVELOPMENT
-      - generic [ref=e35]:
-        - generic [ref=e36]: BRANDING
-        - generic [ref=e38]: DIGITAL EXPERIENCES
-      - generic [ref=e39]:
-        - paragraph [ref=e40]: HELLO, I'M
-        - paragraph [ref=e41]: NH
-        - paragraph [ref=e42]: Pavel
-        - paragraph [ref=e43]: WEB DESIGNER & DIGITAL CREATIVE
-        - paragraph [ref=e44]: I craft clean, modern, and user-focused websites that help brands stand out and connect with the right audience.
-        - paragraph [ref=e45]: NH Pavel
-    - generic [ref=e48]:
-      - generic [ref=e49]:
-        - generic [ref=e50]:
-          - paragraph [ref=e51]: SELECTED
-          - heading "PROJECTS" [level=2] [ref=e52]
-        - paragraph [ref=e53]: A curated selection of recent work showcasing design, development, and problem-solving.
-        - button "VIEW ALL PROJECTS" [ref=e55]
-      - generic [ref=e59]:
-        - 'button "Play video: apple style animation" [ref=e60] [cursor=pointer]':
-          - img "apple style animation — Motion Design" [ref=e62]
-          - generic [ref=e63]:
+    - heading "NH Pavel - Video Editor Portfolio" [level=1] [ref=e3]
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: "*"
+        - generic [ref=e8]: VIDEO EDITOR
+      - generic [ref=e9]: Available for Freelance
+    - generic [ref=e16]:
+      - img [ref=e18]:
+        - generic [ref=e19]: PORTFOLIO
+      - img "Portrait of NH Pavel" [ref=e23]
+      - img [ref=e25]:
+        - generic [ref=e27]: • AVAILABLE WORLDWIDE • AVAILABLE WORLDWIDE • AVAILABLE WORLDWIDE •
+        - generic [ref=e28]: OPEN
+        - generic [ref=e29]: FOR NEW
+        - generic [ref=e30]: PROJECTS
+      - generic [ref=e31]:
+        - generic [ref=e33]: VIDEO EDITING
+        - generic [ref=e35]: COLOR GRADING
+      - generic [ref=e36]:
+        - generic [ref=e37]: SOUND DESIGN
+        - generic [ref=e39]: MOTION GRAPHICS
+      - generic [ref=e40]:
+        - paragraph [ref=e41]: HELLO, I'M
+        - paragraph [ref=e42]: NH
+        - paragraph [ref=e43]: Pavel
+        - paragraph [ref=e44]: VIDEO EDITOR & MOTION DESIGNER
+        - paragraph [ref=e45]: "I edit videos that hold attention: sharp cuts, cinematic color, and sound design that makes every story land."
+        - paragraph [ref=e46]: NH Pavel
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - paragraph [ref=e52]: SELECTED
+          - heading "PROJECTS" [level=2] [ref=e53]
+        - paragraph [ref=e54]: A curated selection of recent edits showcasing storytelling, pacing, color, and sound.
+        - button "VIEW ALL PROJECTS" [ref=e56]
+      - generic [ref=e60]:
+        - 'button "Play video: apple style animation" [ref=e61] [cursor=pointer]':
+          - img "apple style animation — Motion Design" [ref=e63]
+          - generic [ref=e64]:
             - text: "01"
-            - heading "apple style animation" [level=3] [ref=e64]
-            - paragraph [ref=e65]: Motion Design
-        - 'button "Play video: Avenue & Co." [ref=e66] [cursor=pointer]':
-          - img "Avenue & Co. — Luxury Fashion Brand" [ref=e68]
-          - generic [ref=e69]:
+            - heading "apple style animation" [level=3] [ref=e65]
+            - paragraph [ref=e66]: Motion Design
+        - 'button "Play video: Avenue Fashion Film" [ref=e67] [cursor=pointer]':
+          - img "Avenue Fashion Film — FASHION FILM" [ref=e69]
+          - generic [ref=e70]:
             - text: "02"
-            - heading "Avenue & Co." [level=3] [ref=e70]
-            - paragraph [ref=e71]: Luxury Fashion Brand
-        - 'button "Play video: The Journal" [ref=e72] [cursor=pointer]':
-          - img "The Journal — Editorial Platform" [ref=e74]
-          - generic [ref=e75]:
+            - heading "Avenue Fashion Film" [level=3] [ref=e71]
+            - paragraph [ref=e72]: FASHION FILM
+        - 'button "Play video: The Journal Documentary" [ref=e73] [cursor=pointer]':
+          - img "The Journal Documentary — DOCUMENTARY" [ref=e75]
+          - generic [ref=e76]:
             - text: "03"
-            - heading "The Journal" [level=3] [ref=e76]
-            - paragraph [ref=e77]: Editorial Platform
-        - 'button "Play video: Fuel Performance" [ref=e78] [cursor=pointer]':
-          - img "Fuel Performance — Sports Nutrition Brand" [ref=e80]
-          - generic [ref=e81]:
+            - heading "The Journal Documentary" [level=3] [ref=e77]
+            - paragraph [ref=e78]: DOCUMENTARY
+        - 'button "Play video: Fuel Sports Promo" [ref=e79] [cursor=pointer]':
+          - img "Fuel Sports Promo — SPORTS PROMO" [ref=e81]
+          - generic [ref=e82]:
             - text: "04"
-            - heading "Fuel Performance" [level=3] [ref=e82]
-            - paragraph [ref=e83]: Sports Nutrition Brand
-    - generic [ref=e86]:
-      - generic [ref=e87]:
-        - paragraph [ref=e88]: ABOUT
-        - heading "CRAFTING DIGITAL EXPERIENCES" [level=2] [ref=e89]: CRAFTING DIGITALEXPERIENCES
-        - paragraph [ref=e90]: I craft clean, modern, and user-focused websites that help brands stand out and connect with the right audience. Every decision — from the type to the transition — is considered, and every detail earns its place.
-      - generic [ref=e91]:
-        - generic [ref=e92]:
-          - paragraph [ref=e93]: CAPABILITIES
-          - generic [ref=e94]:
-            - generic [ref=e95]: UI / UX DESIGN
-            - generic [ref=e96]: WEB DEVELOPMENT
-            - generic [ref=e97]: BRANDING
-            - generic [ref=e98]: RESPONSIVE DESIGN
-            - generic [ref=e99]: INTERACTION DESIGN
-            - generic [ref=e100]: CMS (WORDPRESS)
-        - generic [ref=e101]:
-          - paragraph [ref=e102]: TOOLS
-          - generic [ref=e103]:
-            - generic [ref=e104]: Figma
-            - generic [ref=e105]: Adobe Creative Suite
-            - generic [ref=e106]: Webflow
-            - generic [ref=e107]: VS Code
-            - generic [ref=e108]: WordPress
-        - generic [ref=e109]:
-          - paragraph [ref=e110]: BASED IN
-          - paragraph [ref=e111]: Remote Worldwide
-    - generic [ref=e114]:
-      - generic [ref=e115]:
-        - heading "SKILLS & EXPERTISE" [level=3] [ref=e116]: SKILLS &EXPERTISE
-        - generic [ref=e117]:
-          - generic [ref=e118]:
-            - generic [ref=e119]:
-              - generic [ref=e120]: UI / UX DESIGN
-              - generic [ref=e121]: 95%
-            - progressbar [ref=e123]
-          - generic [ref=e124]:
-            - generic [ref=e125]:
-              - generic [ref=e126]: WEB DEVELOPMENT
-              - generic [ref=e127]: 90%
-            - progressbar [ref=e129]
-          - generic [ref=e130]:
-            - generic [ref=e131]:
-              - generic [ref=e132]: BRANDING
-              - generic [ref=e133]: 85%
-            - progressbar [ref=e135]
-          - generic [ref=e136]:
-            - generic [ref=e137]:
-              - generic [ref=e138]: RESPONSIVE DESIGN
-              - generic [ref=e139]: 90%
-            - progressbar [ref=e141]
-          - generic [ref=e142]:
-            - generic [ref=e143]:
-              - generic [ref=e144]: INTERACTION DESIGN
-              - generic [ref=e145]: 80%
-            - progressbar [ref=e147]
-          - generic [ref=e148]:
-            - generic [ref=e149]:
-              - generic [ref=e150]: CMS (WORDPRESS)
-              - generic [ref=e151]: 85%
-            - progressbar [ref=e153]
-      - generic [ref=e154]:
-        - generic [ref=e155]: “
-        - paragraph [ref=e156]: I design and build digital experiences that are not only beautiful but also functional, intuitive, and impactful.
-      - generic [ref=e157]:
-        - paragraph [ref=e158]: PRINCIPLES
-        - generic [ref=e159]:
-          - generic [ref=e164]:
-            - paragraph [ref=e165]: USER-CENTERED DESIGN
-            - paragraph [ref=e166]: Focus on creating seamless and meaningful user experiences.
-          - generic [ref=e171]:
-            - paragraph [ref=e172]: CLEAN & MODERN CODE
-            - paragraph [ref=e173]: High-quality, scalable, and performant development.
-          - generic [ref=e178]:
-            - paragraph [ref=e179]: FULLY RESPONSIVE
-            - paragraph [ref=e180]: Websites that look and work perfectly on any device.
-          - generic [ref=e185]:
-            - paragraph [ref=e186]: PERFORMANCE DRIVEN
-            - paragraph [ref=e187]: Speed, SEO, and best practices built into every project.
-    - generic [ref=e189]:
-      - generic [ref=e190]:
-        - generic [ref=e191]:
-          - paragraph [ref=e192]: WHAT CLIENTS
-          - heading "SAY" [level=2] [ref=e193]
-        - paragraph [ref=e194]: Honest feedback from amazing clients I've had the pleasure to work with.
-        - link "MORE REVIEWS" [ref=e196]:
+            - heading "Fuel Sports Promo" [level=3] [ref=e83]
+            - paragraph [ref=e84]: SPORTS PROMO
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - paragraph [ref=e89]: ABOUT
+        - heading "CUTTING STORIES THAT CONNECT" [level=2] [ref=e90]: CUTTING STORIESTHAT CONNECT
+        - paragraph [ref=e91]: "I edit videos that hold attention: sharp cuts, cinematic color, and sound design that makes every story land. Every cut, color choice, and sound cue is intentional, and every frame earns its place."
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - paragraph [ref=e94]: CAPABILITIES
+          - generic [ref=e95]:
+            - generic [ref=e96]: VIDEO EDITING
+            - generic [ref=e97]: COLOR GRADING
+            - generic [ref=e98]: MOTION GRAPHICS
+            - generic [ref=e99]: SOUND DESIGN
+            - generic [ref=e100]: VFX & COMPOSITING
+            - generic [ref=e101]: STORYTELLING
+        - generic [ref=e102]:
+          - paragraph [ref=e103]: TOOLS
+          - generic [ref=e104]:
+            - generic [ref=e105]: Premiere Pro
+            - generic [ref=e106]: After Effects
+            - generic [ref=e107]: DaVinci Resolve
+            - generic [ref=e108]: Photoshop
+            - generic [ref=e109]: Audition
+        - generic [ref=e110]:
+          - paragraph [ref=e111]: BASED IN
+          - paragraph [ref=e112]: Remote Worldwide
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - heading "SKILLS & EXPERTISE" [level=3] [ref=e117]: SKILLS &EXPERTISE
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - generic [ref=e121]: VIDEO EDITING
+              - generic [ref=e122]: 95%
+            - progressbar [ref=e124]
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - generic [ref=e127]: COLOR GRADING
+              - generic [ref=e128]: 90%
+            - progressbar [ref=e130]
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: MOTION GRAPHICS
+              - generic [ref=e134]: 85%
+            - progressbar [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - generic [ref=e139]: SOUND DESIGN
+              - generic [ref=e140]: 90%
+            - progressbar [ref=e142]
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e145]: VFX & COMPOSITING
+              - generic [ref=e146]: 80%
+            - progressbar [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - generic [ref=e151]: STORYTELLING
+              - generic [ref=e152]: 85%
+            - progressbar [ref=e154]
+      - generic [ref=e155]:
+        - generic [ref=e156]: “
+        - paragraph [ref=e157]: I edit stories that are not only beautiful to watch but also paced, emotional, and impossible to scroll past.
+      - generic [ref=e158]:
+        - paragraph [ref=e159]: PRINCIPLES
+        - generic [ref=e160]:
+          - generic [ref=e165]:
+            - paragraph [ref=e166]: STORY FIRST
+            - paragraph [ref=e167]: Every edit starts with the story, the message, and the audience.
+          - generic [ref=e172]:
+            - paragraph [ref=e173]: RHYTHM & PACING
+            - paragraph [ref=e174]: Cuts, music, and motion timed to keep viewers watching.
+          - generic [ref=e179]:
+            - paragraph [ref=e180]: EVERY PLATFORM
+            - paragraph [ref=e181]: Formats and exports tuned for YouTube, Reels, TikTok, and the big screen.
+          - generic [ref=e186]:
+            - paragraph [ref=e187]: ON-TIME DELIVERY
+            - paragraph [ref=e188]: Clear communication, organized revisions, and fast turnarounds.
+    - generic [ref=e190]:
+      - generic [ref=e191]:
+        - generic [ref=e192]:
+          - paragraph [ref=e193]: WHAT CLIENTS
+          - heading "SAY" [level=2] [ref=e194]
+        - paragraph [ref=e195]: Feedback from clients on videos that performed.
+        - link "MORE REVIEWS" [ref=e197]:
           - /url: "#"
-      - generic [ref=e199]:
-        - article [ref=e200]:
-          - generic [ref=e201]: “
-          - paragraph [ref=e202]: Alex is an incredible designer. He understood our vision perfectly and delivered a website that exceeded our expectations.
-          - generic [ref=e203]:
-            - img "Jessica Lee" [ref=e204]
-            - generic [ref=e205]:
-              - paragraph [ref=e206]: Jessica Lee
-              - paragraph [ref=e207]: Founder, Avenue & Co.
-        - article [ref=e208]:
-          - generic [ref=e209]: “
-          - paragraph [ref=e210]: Professional, creative, and detail-oriented. The whole process was smooth from start to finish.
-          - generic [ref=e211]:
-            - img "David Carter" [ref=e212]
-            - generic [ref=e213]:
-              - paragraph [ref=e214]: David Carter
-              - paragraph [ref=e215]: CEO, Studio Form
-        - article [ref=e216]:
-          - generic [ref=e217]: “
-          - paragraph [ref=e218]: Our new website not only looks amazing but also performs exceptionally well. Highly recommended!
-          - generic [ref=e219]:
-            - img "James Wilson" [ref=e220]
-            - generic [ref=e221]:
-              - paragraph [ref=e222]: James Wilson
-              - paragraph [ref=e223]: Marketing Director, Fuel Performance
-    - generic [ref=e226]:
-      - generic [ref=e227]:
-        - paragraph [ref=e228]: LET'S CREATE
-        - heading "LET'S CREATE SOMETHING GREAT" [level=2] [ref=e229]: LET'S CREATESOMETHING GREAT
-        - paragraph [ref=e230]: Have a project in mind? Let's build something that makes an impact.
-      - generic [ref=e232]:
-        - img "QR code to visit website" [ref=e233]
-        - paragraph [ref=e234]: Scan to visit my website
-      - generic [ref=e235]:
-        - link [ref=e236]:
-          - /url: mailto:hello@alexmorgan.design
-          - paragraph [ref=e237]: EMAIL
-          - paragraph [ref=e238]: hello@alexmorgan.design
-        - link [ref=e239]:
-          - /url: https://www.alexmorgan.design
-          - paragraph [ref=e240]: WEBSITE
-          - paragraph [ref=e241]: www.alexmorgan.design
-        - generic [ref=e242]:
-          - paragraph [ref=e243]: LOCATION
-          - paragraph [ref=e244]: Remote Worldwide
-    - generic [ref=e246]:
-      - paragraph [ref=e247]: NH Pavel
-      - paragraph [ref=e248]: © 2026 NH Pavel. All rights reserved.
-      - generic [ref=e249]:
-        - link "Instagram" [ref=e250]:
-          - /url: https://instagram.com/alexmorgan
-        - link "Vimeo" [ref=e251]:
-          - /url: https://vimeo.com/alexmorgan
-  - button "Open Next.js Dev Tools" [ref=e257] [cursor=pointer]
-  - alert [ref=e261]
+      - generic [ref=e200]:
+        - article [ref=e201]:
+          - generic [ref=e202]: “
+          - paragraph [ref=e203]: Pavel is an incredible editor. He understood our vision perfectly and delivered a video that exceeded our expectations.
+          - generic [ref=e204]:
+            - img "Jessica Lee" [ref=e205]
+            - generic [ref=e206]:
+              - paragraph [ref=e207]: Jessica Lee
+              - paragraph [ref=e208]: Founder, Avenue & Co.
+        - article [ref=e209]:
+          - generic [ref=e210]: “
+          - paragraph [ref=e211]: Professional, creative, and detail-oriented. Fast turnarounds and the whole process was smooth from start to finish.
+          - generic [ref=e212]:
+            - img "David Carter" [ref=e213]
+            - generic [ref=e214]:
+              - paragraph [ref=e215]: David Carter
+              - paragraph [ref=e216]: CEO, Studio Form
+        - article [ref=e217]:
+          - generic [ref=e218]: “
+          - paragraph [ref=e219]: Our new campaign video looks amazing and performs exceptionally well. Highly recommended!
+          - generic [ref=e220]:
+            - img "James Wilson" [ref=e221]
+            - generic [ref=e222]:
+              - paragraph [ref=e223]: James Wilson
+              - paragraph [ref=e224]: Marketing Director, Fuel Performance
+    - generic [ref=e227]:
+      - generic [ref=e228]:
+        - paragraph [ref=e229]: LET'S CREATE
+        - heading "LET'S CREATE SOMETHING GREAT" [level=2] [ref=e230]: LET'S CREATESOMETHING GREAT
+        - paragraph [ref=e231]: Have a video project in mind? Let's cut something that makes an impact.
+      - generic [ref=e233]:
+        - link "Open NH Pavel's Instagram profile" [ref=e234] [cursor=pointer]:
+          - /url: https://www.instagram.com/nh_pavel9090/
+        - paragraph [ref=e238]: Scan to follow on Instagram
+      - generic [ref=e239]:
+        - link [ref=e240]:
+          - /url: mailto:hello@nhpavel.com
+          - paragraph [ref=e241]: EMAIL
+          - paragraph [ref=e242]: hello@nhpavel.com
+        - link [ref=e243]:
+          - /url: https://nh-pavel-portfolio.vercel.app
+          - paragraph [ref=e244]: WEBSITE
+          - paragraph [ref=e245]: nh-pavel-portfolio.vercel.app
+        - generic [ref=e246]:
+          - paragraph [ref=e247]: LOCATION
+          - paragraph [ref=e248]: Remote Worldwide
+    - generic [ref=e250]:
+      - paragraph [ref=e251]: NH Pavel
+      - paragraph [ref=e252]: © 2026 NH Pavel. All rights reserved.
+      - generic [ref=e253]:
+        - link "Instagram" [ref=e254]:
+          - /url: https://www.instagram.com/nh_pavel9090/
+        - link "Vimeo" [ref=e255]:
+          - /url: https://vimeo.com/nhpavel
+  - button "Open Next.js Dev Tools" [ref=e261] [cursor=pointer]
+  - alert [ref=e265]
 ```
 
 # Test source

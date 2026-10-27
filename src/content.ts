@@ -94,7 +94,7 @@ export const projects: Project[] = [
       "A travel piece shot across three continents, edited to follow the arc of the journey rather than the itinerary.",
     image: "/project-02.png",
     videoUrl: "",
-    youtubeId: "eRsGyueVLvQ",
+    youtubeId: "VgXtpj5XgS8",
     url: "#projects",
   },
   {
@@ -105,7 +105,7 @@ export const projects: Project[] = [
       "A music video where the cut lives inside the beat — every transition lands on the downbeat.",
     image: "/project-03.png",
     videoUrl: "",
-    youtubeId: "R6MlUcmOul8",
+    youtubeId: "X1aFkAkFASk",
     url: "#projects",
   },
   {
@@ -116,7 +116,7 @@ export const projects: Project[] = [
       "Consistent, punchy YouTube editing that keeps the audience past the three-second mark, every episode.",
     image: "/project-04.png",
     videoUrl: "",
-    youtubeId: "WhWc3b3KhnY",
+    youtubeId: "cILXVO90DeI",
     url: "#projects",
   },
   {
@@ -127,7 +127,7 @@ export const projects: Project[] = [
       "A complete brand system for a sustainable architecture studio, built on restraint and material honesty.",
     image: "/project-05.png",
     videoUrl: "",
-    youtubeId: "Y-rmzh0PI3c",
+    youtubeId: "TS8wb9IMHA4",
     url: "#projects",
   },
   {
@@ -138,7 +138,7 @@ export const projects: Project[] = [
       "Mobile app for mental wellness tracking and guided meditation, designed for calm and clarity.",
     image: "/project-06.png",
     videoUrl: "",
-    youtubeId: "mN0zPOpADL4",
+    youtubeId: "bgYnwHPJupE",
     url: "#projects",
   },
   {
@@ -149,7 +149,7 @@ export const projects: Project[] = [
       "A booking platform for curated independent hotels, with a focus on discovery and trust.",
     image: "/project-07.png",
     videoUrl: "",
-    youtubeId: "SkVqJ1SGeL0",
+    youtubeId: "rz1B4B2yBZY",
     url: "#projects",
   },
   {
@@ -160,7 +160,7 @@ export const projects: Project[] = [
       "Online marketplace for local organic produce delivery, connecting growers and neighbors.",
     image: "/project-08.png",
     videoUrl: "",
-    youtubeId: "TLkA0RELQ1g",
+    youtubeId: "z5y8Clp_TdE",
     url: "#projects",
   },
 ];
@@ -189,7 +189,8 @@ export const services = [
   {
     number: "01",
     title: "STORY FIRST",
-    description: "Every edit starts with the story, the message, and the audience.",
+    description:
+      "Every edit starts with the story, the message, and the audience.",
   },
   {
     number: "02",
@@ -199,12 +200,14 @@ export const services = [
   {
     number: "03",
     title: "EVERY PLATFORM",
-    description: "Formats and exports tuned for YouTube, Reels, TikTok, and the big screen.",
+    description:
+      "Formats and exports tuned for YouTube, Reels, TikTok, and the big screen.",
   },
   {
     number: "04",
     title: "ON-TIME DELIVERY",
-    description: "Clear communication, organized revisions, and fast turnarounds.",
+    description:
+      "Clear communication, organized revisions, and fast turnarounds.",
   },
 ];
 
