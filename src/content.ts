@@ -99,13 +99,13 @@ export const projects: Project[] = [
   },
   {
     number: "03",
-    title: "The Journal Documentary",
-    category: "DOCUMENTARY",
+    title: "Cinematic travel DOCUMENTARY",
+    category: "Cinematic reel Edit",
     description:
-      "A music video where the cut lives inside the beat — every transition lands on the downbeat.",
+      "A cinematic travel documentary that captures the essence of adventure, culture, and the human experience through stunning visuals and compelling narratives.",
     image: "/project-03.png",
     videoUrl: "",
-    youtubeId: "X1aFkAkFASk",
+    youtubeId: "JefVgHW3BUo",
     url: "#projects",
   },
   {
