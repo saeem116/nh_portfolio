@@ -88,13 +88,13 @@ export const projects: Project[] = [
   },
   {
     number: "02",
-    title: "Avenue Fashion Film",
-    category: "FASHION FILM",
+    title: "NH Pavel 1000$ Journey",
+    category: "Modern Editing Style",
     description:
-      "A travel piece shot across three continents, edited to follow the arc of the journey rather than the itinerary.",
+      "Modern editing style with a focus on storytelling, pacing, and visual impact. A journey through the lens of creativity and innovation.",
     image: "/project-02.png",
     videoUrl: "",
-    youtubeId: "VgXtpj5XgS8",
+    youtubeId: "hrODpxRFHYU",
     url: "#projects",
   },
   {
