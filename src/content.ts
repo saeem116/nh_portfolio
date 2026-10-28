@@ -110,13 +110,13 @@ export const projects: Project[] = [
   },
   {
     number: "04",
-    title: "Fuel Sports Promo",
-    category: "SPORTS PROMO",
+    title: "Cinematic travel DOCUMENTARY",
+    category: "Cinematic reel Edit",
     description:
-      "Consistent, punchy YouTube editing that keeps the audience past the three-second mark, every episode.",
+      "A cinematic travel documentary that captures the essence of adventure, culture, and the human experience through stunning visuals and compelling narratives.",
     image: "/project-04.png",
     videoUrl: "",
-    youtubeId: "cILXVO90DeI",
+    youtubeId: "BC0qJMOgso8",
     url: "#projects",
   },
   {
