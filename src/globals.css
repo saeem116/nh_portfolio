@@ -171,6 +171,56 @@ body {
   }
 }
 
+/* ---------- Header freelance link mobile styles ---------- */
+.freelance-link {
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+
+@media (max-width: 639px) {
+  .freelance-link {
+    font-size: 9px;
+    letter-spacing: 0.16em;
+  }
+  /* Keep header height at 16px on mobile by constraining the flex items */
+  header .flex.items-center.gap-3 > span:last-child {
+    white-space: nowrap;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 359px) {
+  .freelance-link {
+    font-size: 9px;
+  }
+  header .flex.items-center.gap-3 > span:last-child {
+    white-space: nowrap;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 140px; /* Ensure space for the link */
+  }
+}
+
+/* Tap target: 44px minimum on touch screens */
+@media (hover: none) and (pointer: coarse) {
+  .freelance-link {
+    padding-block: 14px;
+    margin-block: -14px;
+  }
+}
+
+/* Arrow icon size on mobile - keep consistent */
+@media (max-width: 639px) {
+  .freelance-link + svg {
+    width: 14px;
+    height: 14px;
+  }
+}
+
 /* ---------- Custom scrollbar ---------- */
 ::-webkit-scrollbar {
   width: 10px;

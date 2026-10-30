@@ -6,7 +6,7 @@ import { QRCodeSVG } from "qrcode.react";
 
 export function Contact() {
   return (
-    <section id="contact" className="section border-t border-line bg-warm-ivory">
+    <section id="contact" tabIndex={-1} className="section border-t border-line bg-warm-ivory" style={{ outline: "none" }}>
       <div className="site-container">
         <div className="grid grid-cols-1 lg:grid-cols-[1.5fr_0.8fr_1fr] gap-12 lg:gap-16 items-start">
           {/* Left: CTA */}

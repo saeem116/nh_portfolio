@@ -105,7 +105,19 @@ export function ScrollReveal() {
       });
     };
 
-    // Failsafe 2: when near the bottom of the page, reveal everything remaining.
+    // Failsafe 2: on scrollend (after smooth scroll), reveal any hidden
+    // element within viewport + 120px. This handles the case where fast
+    // programmatic scrolling skips the IntersectionObserver.
+    const onScrollEnd = () => {
+      const els = Array.from(document.querySelectorAll("[data-reveal].reveal-hidden,[data-reveal].reveal-hidden-fade"));
+      const limit = window.innerHeight + 120;
+      els.forEach((el) => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < limit) reveal(el);
+      });
+    };
+
+    // Failsafe 3: when near the bottom of the page, reveal everything remaining.
     const onBottom = () => {
       const els = Array.from(document.querySelectorAll("[data-reveal].reveal-hidden,[data-reveal].reveal-hidden-fade"));
       els.forEach((el) => {
@@ -137,6 +149,7 @@ export function ScrollReveal() {
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", scan);
     window.addEventListener("scroll", onBottom, { passive: true });
+    window.addEventListener("scrollend", onScrollEnd, { passive: true });
 
     return () => {
       cancelAnimationFrame(raf);
@@ -145,6 +158,7 @@ export function ScrollReveal() {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", scan);
       window.removeEventListener("scroll", onBottom);
+      window.removeEventListener("scrollend", onScrollEnd);
       observer?.disconnect();
       mo?.disconnect();
     };
