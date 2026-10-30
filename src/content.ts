@@ -77,17 +77,6 @@ export type Project = {
 export const projects: Project[] = [
   {
     number: "01",
-    title: "apple style animation",
-    category: "Motion Design",
-    description:
-      "A short-form motion piece that demonstrates a clean, modern, and user-focused approach to animation.",
-    image: "/project-01.png",
-    videoUrl: "",
-    youtubeId: "NhuWgCFB5Io",
-    url: "#projects",
-  },
-  {
-    number: "02",
     title: "NH Pavel 1000$ Journey",
     category: "Modern Editing Style",
     description:
@@ -95,6 +84,17 @@ export const projects: Project[] = [
     image: "/project-02.png",
     videoUrl: "",
     youtubeId: "hrODpxRFHYU",
+    url: "#projects",
+  },
+  {
+    number: "02",
+    title: "apple style animation",
+    category: "Motion Design",
+    description:
+      "A short-form motion piece that demonstrates a clean, modern, and user-focused approach to animation.",
+    image: "/project-01.png",
+    videoUrl: "",
+    youtubeId: "NhuWgCFB5Io",
     url: "#projects",
   },
   {
