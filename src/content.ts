@@ -88,18 +88,40 @@ export const projects: Project[] = [
   },
   {
     number: "02",
-    title: "apple style animation",
-    category: "Motion Design",
+    title: "Talking Head video 02",
+    category: "Talking Head video",
     description:
-      "A short-form motion piece that demonstrates a clean, modern, and user-focused approach to animation.",
-    image: "/project-01.png",
+      "A cinematic talking head video that combines engaging visuals, dynamic editing, and compelling storytelling to captivate the audience.",
+    image: "/Talking Head 02_ Cinematic VFX Case Study.png",
     videoUrl: "",
-    youtubeId: "NhuWgCFB5Io",
+    youtubeId: "Igd7kNstGAU",
     url: "#projects",
   },
   {
     number: "03",
-    title: "Cinematic travel DOCUMENTARY",
+    title: "1st Client Work",
+    category: "Talking Head video",
+    description:
+      "A cinematic talking head video that combines engaging visuals, dynamic editing, and compelling storytelling to captivate the audience.",
+    image: "/Cinematic UI Motion Portrait.png",
+    videoUrl: "",
+    youtubeId: "Tx1x3ly6JRY",
+    url: "#projects",
+  },
+  {
+    number: "04",
+    title: "App Promotion",
+    category: "App Animation",
+    description:
+      "A cinematic app promotion video that showcases the features, benefits, and user experience of a mobile application through visually appealing animations and storytelling.",
+    image: "/Telegram Betting App Promotion.png",
+    videoUrl: "",
+    youtubeId: "JAQmIwV5X5Y",
+    url: "#projects",
+  },
+  {
+    number: "05",
+    title: "Cinematic travel documentary",
     category: "Cinematic reel Edit",
     description:
       "A cinematic travel documentary that captures the essence of adventure, culture, and the human experience through stunning visuals and compelling narratives.",
@@ -109,36 +131,14 @@ export const projects: Project[] = [
     url: "#projects",
   },
   {
-    number: "04",
-    title: "Cinematic travel DOCUMENTARY",
+    number: "06",
+    title: "Cinematic travel documentary",
     category: "Cinematic reel Edit",
     description:
       "A cinematic travel documentary that captures the essence of adventure, culture, and the human experience through stunning visuals and compelling narratives.",
     image: "/project-04.png",
     videoUrl: "",
     youtubeId: "BC0qJMOgso8",
-    url: "#projects",
-  },
-  {
-    number: "05",
-    title: "Northwind Brand Film",
-    category: "BRAND FILM",
-    description:
-      "A complete brand system for a sustainable architecture studio, built on restraint and material honesty.",
-    image: "/project-05.png",
-    videoUrl: "",
-    youtubeId: "TS8wb9IMHA4",
-    url: "#projects",
-  },
-  {
-    number: "06",
-    title: "Lumen Explainer",
-    category: "EXPLAINER VIDEO",
-    description:
-      "Mobile app for mental wellness tracking and guided meditation, designed for calm and clarity.",
-    image: "/project-06.png",
-    videoUrl: "",
-    youtubeId: "bgYnwHPJupE",
     url: "#projects",
   },
   {
@@ -154,13 +154,13 @@ export const projects: Project[] = [
   },
   {
     number: "08",
-    title: "Verde Music Video",
-    category: "MUSIC VIDEO",
+    title: "apple style animation",
+    category: "Motion Design",
     description:
-      "Online marketplace for local organic produce delivery, connecting growers and neighbors.",
-    image: "/project-08.png",
+      "A short-form motion piece that demonstrates a clean, modern, and user-focused approach to animation.",
+    image: "/project-01.png",
     videoUrl: "",
-    youtubeId: "z5y8Clp_TdE",
+    youtubeId: "NhuWgCFB5Io",
     url: "#projects",
   },
 ];
