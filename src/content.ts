@@ -182,6 +182,7 @@ export const skills = [
   { name: "SOUND DESIGN", level: 90 },
   { name: "VFX & COMPOSITING", level: 80 },
   { name: "STORYTELLING", level: 85 },
+  { name: "LOGO ANIMATION", level: 90 },
 ];
 
 // ---------- Services / Principles ----------
