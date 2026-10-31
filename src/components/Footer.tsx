@@ -1,7 +1,7 @@
 "use client";
 
 import { personal, footerSocials } from "../content";
-import { INSTAGRAM_URL, WHATSAPP_URL } from "../lib/site";
+import { INSTAGRAM_URL, LINKEDIN_URL, WHATSAPP_URL } from "../lib/site";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -32,12 +32,12 @@ export function Footer() {
             WhatsApp
           </a>
           <a
-            href={footerSocials.find((s) => s.label === "Vimeo")?.href ?? "#"}
+            href={LINKEDIN_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs text-muted hover:text-terracotta transition-colors"
           >
-            Vimeo
+            LinkedIn
           </a>
         </div>
       </div>
