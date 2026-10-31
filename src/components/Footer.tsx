@@ -1,7 +1,7 @@
 "use client";
 
 import { personal, footerSocials } from "../content";
-import { INSTAGRAM_URL } from "../lib/site";
+import { INSTAGRAM_URL, WHATSAPP_URL } from "../lib/site";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -15,11 +15,7 @@ export function Footer() {
         >
           {personal.name}
         </p>
-        <p
-          data-reveal
-          data-reveal-delay="80ms"
-          className="text-xs text-muted"
-        >
+        <p data-reveal data-reveal-delay="80ms" className="text-xs text-muted">
           © {year} {personal.name}. All rights reserved.
         </p>
         <div
@@ -28,12 +24,12 @@ export function Footer() {
           className="flex items-center gap-6"
         >
           <a
-            href={INSTAGRAM_URL}
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs text-muted hover:text-terracotta transition-colors"
           >
-            Instagram
+            WhatsApp
           </a>
           <a
             href={footerSocials.find((s) => s.label === "Vimeo")?.href ?? "#"}
