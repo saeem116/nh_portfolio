@@ -206,6 +206,12 @@ export const services = [
   },
   {
     number: "04",
+    title: "RETENTION BY DESIGN",
+    description:
+      " Engineering the first five seconds to hook viewers and pacing structural shifts to maximize watch time.",
+  },
+  {
+    number: "05",
     title: "ON-TIME DELIVERY",
     description:
       "Clear communication, organized revisions, and fast turnarounds.",
